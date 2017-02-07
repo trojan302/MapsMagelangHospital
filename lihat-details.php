@@ -2,7 +2,7 @@
 
 require 'libs/database/db.php';
 
-$slug = "Rumah Sakit Umum Tidar";
+$slug = $_GET['slug'];
 
 if (!isset($slug)) {
 	header('Location: index.php');
@@ -38,7 +38,7 @@ $getData = $results->fetch_assoc();
 			<h3><i class="glyphicon glyphicon-plus" style="color:red;"></i> <?= $data['placeName'] ?></h3>
 		</div>
 
-		<a href="update.php" class="text-info"><i class="glyphicon glyphicon-arrow-left"></i> Back to Update</a>
+		<a href="index.php" class="text-info"><i class="glyphicon glyphicon-arrow-left"></i> Back to Update</a>
 
 		<div class="row">
 			<div class="col-md-4">

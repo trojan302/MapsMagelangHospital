@@ -28,12 +28,12 @@ require 'libs/database/db.php';
 					<select name="namaRS" class="form-control" required>
 						<option value="">== Pilih Nama Rumah Sakit ==</option>
 						<?php 
-						// $sql = $db->query("SELECT * FROM hospital");
-						// while ($row = $sql->fetch_assoc()) {
+						$sql = $db->query("SELECT * FROM hospital");
+						while ($row = $sql->fetch_assoc()) {
 						?>
-						<option value="1">Rumah Sakit Umum Tidar</option>
+						<option value="<?= $row['hospitalID']; ?>"><?= $row['placeName']; ?></option>
 						<?php
-						// }
+						}
 						?>
 					</select>
 				</div>

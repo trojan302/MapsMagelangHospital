@@ -21,7 +21,7 @@ for (i = 0; i < locations.length; i++) {
   google.maps.event.addListener(marker, 'click', (function(marker, i) {
     return function() {
 
-      var stringContent = '<div class="info"><a href="single.php?slug="'+ locations[i].placeName +'"><h2>' + locations[i].placeName + '</h2></a>' + 
+      var stringContent = '<div class="info"><a href="lihat-details.php?slug='+ locations[i].placeName +'"><h2>' + locations[i].placeName + '</h2></a>' + 
                     '<p>' + locations[i].placeAddress + '<br>' + 'Telp : ' + locations[i].placePhone + ' <br> ' + 
                     'latitude : ' + locations[i].placeCoorLat + '<br> longitude : '+ locations[i].placeCoorLng +'</p>' +
                     '<div class="images"><img src="'+ locations[i].placePhoto +'" width="100%"></div></div>';
