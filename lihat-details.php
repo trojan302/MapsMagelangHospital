@@ -47,7 +47,7 @@ $getData = $results->fetch_assoc();
 			<div class="col-md-8">
 				<h2><?= $data['placeName']; ?></h2>
 				<hr>
-				<p class="text-justify" style="text-indent: 50px;"><span>Hallo Bebek!.</span>
+				<p class="text-justify" style="text-indent: 50px;"><span>Hallo Bebek! Ini tak ubah lagi.</span>
 				<span>Porro inventore libero quo quis quas, excepturi natus amet, dolor. Non commodi, recusandae cumque distinctio et aperiam, dolorum rem aliquam illum necessitatibus ratione quidem libero accusantium ducimus eos. Aspernatur, sed!</span>
 				<span>Nemo, expedita quo aliquam odio numquam reiciendis minus minima eius consectetur pariatur dolore nobis aliquid aperiam esse labore perferendis illum incidunt? Aut, temporibus. Esse reprehenderit porro autem unde soluta magni.</span>
 				<span>Tempora saepe repudiandae enim vero, fugiat, et similique. Accusamus similique non eligendi ab modi eos a quasi sit sequi animi. Alias consequuntur nostrum numquam ullam autem quae ratione natus atque.</span>
